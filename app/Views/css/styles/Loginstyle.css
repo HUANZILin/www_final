@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  top: 20vh;
+  background-color: #58805e;
+}
+body h1 {
+  color: #e2e4dd;
+  letter-spacing: 1rem;
+  text-align: center;
+}
+body div#line {
+  margin: 0 auto;
+  margin-top: 2rem;
+  height: 0.1rem;
+  width: 50vw;
+  background-color: #e2e4dd;
+  align-items: center;
+}
+body .container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+body .container form .formTop {
+  display: flex;
+  margin: 3rem 0rem 3rem 0rem;
+}
+body .container form .formButtom {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+body .container form .formButtom a {
+  color: #e2e4dd;
+  text-decoration: none;
+}
+body .container form .formButtom .register {
+  margin-top: 10px;
+  text-decoration: underline;
+}
+body .container form .label {
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+  align-items: center;
+}
+body .container form .label label {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+body .container form .input {
+  display: flex;
+  flex-direction: column;
+}
+body .container form .input input {
+  background-color: #e2e4dd;
+  color: #314543;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 6px 25px 6px 25px;
+  margin-bottom: 15px;
+}
+body .container form button {
+  background-color: #314543;
+  color: #e2e4dd;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 40px 10px 40px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}
+form label {
+  display: inline-block;
+  color: #e2e4dd;
+  font-size: 1.5rem;
+  text-align: right;
+  font-weight: bold;
+}
+form input {
+  position: relative;
+  text-align: center;
+  left: 3rem;
+  height: 2.5rem;
+  width: 20vw;
+  margin: 0 auto;
+  background-color: #e2e4dd;
+  color: #314543;
+  border: 0px;
+  border-radius: 2rem;
+}
+form div#first {
+  text-align: center;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+form div#second {
+  text-align: center;
+  width: 100%;
+  padding: 0.25rem;
+}
+form div#end {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+form div#end button#submit {
+  width: 6rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #314543;
+  border: none;
+  border-radius: 1rem;
+}
+form div#end button#submit a {
+  text-decoration: none;
+  color: #e2e4dd;
+}
+form div#end p#forgetpassword a {
+  position: relative;
+  top: 0.5rem;
+  padding-left: 1rem;
+  color: #e2e4dd;
+}
+
+div.data {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5rem;
+}
+div.data div.UID {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  justify-content: center;
+}
+div.data div.UID div.UIDWord {
+  font-size: 1.5rem;
+  color: #e2e4dd;
+  font-weight: bold;
+  padding-right: 1rem;
+}
+div.data div.UID div.UIDBlock {
+  height: 2.5rem;
+  width: 20vw;
+  text-align: center;
+  line-height: 2.5rem;
+  background-color: #e2e4dd;
+  color: #314543;
+  border: 0px;
+  border-radius: 2rem;
+  margin-right: -80px;
+}
+div.data div.Email {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  justify-content: center;
+}
+div.data div.Email div.EmailWord {
+  font-size: 1.5rem;
+  color: #e2e4dd;
+  font-weight: bold;
+  padding-right: 1rem;
+}
+div.data div.Email div.EmailBlock {
+  height: 2.5rem;
+  width: 20vw;
+  text-align: center;
+  line-height: 2.5rem;
+  background-color: #e2e4dd;
+  color: #314543;
+  border: 0px;
+  border-radius: 2rem;
+}
+div.data div.Email img {
+  display: flex;
+  position: relative;
+  left: 1rem;
+  box-sizing: border-box;
+  background-color: #e2e4dd;
+  border: 0;
+  border-radius: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+div.data div.Password {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  justify-content: center;
+}
+div.data div.Password div.PasswordWord {
+  font-size: 1.5rem;
+  color: #e2e4dd;
+  font-weight: bold;
+  padding-right: 1rem;
+}
+div.data div.Password div.PassWordBlock {
+  height: 2.5rem;
+  width: 20vw;
+  text-align: center;
+  line-height: 2.5rem;
+  background-color: #e2e4dd;
+  color: #314543;
+  border: 0px;
+  border-radius: 2rem;
+}
+div.data div.Password img {
+  display: flex;
+  position: relative;
+  left: 1rem;
+  box-sizing: border-box;
+  background-color: #e2e4dd;
+  border: 0;
+  border-radius: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+div.data button#DataEdit {
+  margin: 0 auto;
+  height: 2.5rem;
+  font-size: 1rem;
+  background-color: #314543;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 40px;
+}
+div.data button#DataEdit a {
+  color: #e2e4dd;
+  text-decoration: none;
+}
+div.data img.EditPen {
+  cursor: pointer;
+}
+div.data img.EditPen:hover {
+  background-color: #314543;
+}
+
+div.data button#DataStore {
+  margin: 0 auto;
+  height: 2.5rem;
+  font-size: 1rem;
+  background-color: #314543;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 40px;
+}
+div.data button#DataStore a {
+  color: #e2e4dd;
+  text-decoration: none;
+}/*# sourceMappingURL=Loginstyle.css.map */

@@ -1,0 +1,70 @@
+body {
+  background-color: #58805e;
+  color: #e2e4dd;
+  padding-top: 150px;
+}
+body h1 {
+  text-align: center;
+}
+body hr {
+  margin: 20px auto 0px auto;
+}
+body .container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+body .test {
+  display: flex;
+  margin: 20px 0px;
+  width: 60%;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+body .test h4 {
+  margin: 10px 0px;
+  text-align: left;
+}
+body .test-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+  padding: 0px 30px;
+  color: black;
+  background-color: #e2e4dd;
+  margin-bottom: 30px;
+}
+body .question {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+body .question h2 {
+  color: #af7a1f;
+  font-weight: 1000;
+}
+body .answer {
+  text-align: left;
+  margin-bottom: 30px;
+}
+body .answer span {
+  color: #af7a1f;
+  font-weight: 1000;
+}
+body .btn {
+  width: 100%;
+  border-radius: 30px;
+  color: #e2e4dd;
+}
+body .btn-big {
+  width: 100%;
+  background-color: #314543;
+}
+body .btn-small {
+  width: 25%;
+  margin: 0px 25px;
+  background-color: #314543;
+}/*# sourceMappingURL=test.css.map */

@@ -1,0 +1,167 @@
+$color-dark: #314543;
+$color-base: #58805e;
+$color-light: #e2e4dd;
+$color-gold: #af7a1f;
+
+body {
+  background-color: $color-base;
+  color: $color-light;
+  main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    hr {
+      margin: 20px auto 0px auto;
+    }
+    img {
+      width: 100%;
+      height: 65vh;
+      object-fit: cover;
+      object-position: bottom;
+    }
+
+    section.box1 {
+      min-height: 50vh;
+      width: 40%;
+      background-image: url(/image/單字卡.jpg);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      padding: 0rem;
+      flex: 1.5 2 300px;
+      a {
+        background-color: #58805eaa;
+        // padding: 1rem 0.75rem;
+        height: 100%;
+        width: 100%;
+        color: aliceblue;
+        text-decoration: none; /* 將底線刪除 */
+        font-size: 1.25rem;
+        transition: all 0.25s ease;
+        &:hover {
+          color: aliceblue;
+          background-color: #58805e4e;
+        }
+        h3 {
+          padding-top: 25%;
+          margin-left: 3rem;
+        }
+        h5 {
+          margin-left: 3rem;
+        }
+        hr {
+          width: 45%;
+          margin-left: 3rem;
+        }
+      }
+    }
+    section.box2 {
+      // flex-direction: column;
+      flex: 3 2 500px;
+      min-height: 50vh;
+      width: 40%;
+      background-image: url(/image/影片推薦.jpg);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      padding: 0rem;
+
+      a {
+        background-color: #af7a1f94;
+        // padding: 1rem 0.75rem;
+        height: 100%;
+        width: 100%;
+        color: aliceblue;
+        text-decoration: none; /* 將底線刪除 */
+        font-size: 1.25rem;
+        transition: all 0.25s ease;
+        &:hover {
+          color: aliceblue;
+          background-color: #af7a1f36;
+        }
+        h3 {
+          padding-top: 14%;
+          margin-left: 3rem;
+        }
+        h5 {
+          margin-left: 3rem;
+        }
+        hr {
+          width: 35%;
+          margin-left: 3rem;
+        }
+      }
+    }
+    section.box3 {
+      flex: 3 1 300px;
+      min-height: 50vh;
+      width: 40%;
+      background-image: url(/image/AI對話.jpg);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      padding: 0rem;
+
+      a {
+        background-color: #314543b9;
+        // padding: 1rem 0.75rem;
+        height: 100%;
+        width: 100%;
+        color: aliceblue;
+        text-decoration: none; /* 將底線刪除 */
+        font-size: 1.25rem;
+        transition: all 0.25s ease;
+        &:hover {
+          color: aliceblue;
+          background-color: #31454376;
+        }
+        h3 {
+          padding-top: 21%;
+          margin-left: 3rem;
+        }
+        h5 {
+          margin-left: 3rem;
+        }
+        hr {
+          width: 35%;
+          margin-left: 3rem;
+        }
+      }
+    }
+    section.box4 {
+      flex: 1 1 500px;
+      min-height: 50vh;
+      width: 40%;
+      background-image: url(/image/學習分析.jpg);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      padding: 0rem;
+
+      a {
+        background-color: #e2e4ddbc;
+        height: 100%;
+        width: 100%;
+        color: rgb(85, 90, 95);
+        text-decoration: none; /* 將底線刪除 */
+        font-size: 1.25rem;
+        transition: all 0.25s ease;
+        &:hover {
+          color: rgb(85, 90, 95);
+          background-color: #e2e4dd69;
+        }
+        h3 {
+          padding-top: 25%;
+          margin-left: 3rem;
+        }
+        h5 {
+          margin-left: 3rem;
+        }
+        hr {
+          width: 45%;
+          margin-left: 3rem;
+        }
+      }
+    }
+  }
+}

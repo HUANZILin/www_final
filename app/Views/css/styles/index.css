@@ -1,0 +1,157 @@
+@charset "UTF-8";
+body {
+  background-color: #58805e;
+  color: #e2e4dd;
+}
+body main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+body main hr {
+  margin: 20px auto 0px auto;
+}
+body main img {
+  width: 100%;
+  height: 65vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+body main section.box1 {
+  min-height: 50vh;
+  width: 40%;
+  background-image: url(/image/單字卡.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  padding: 0rem;
+  flex: 1.5 2 300px;
+}
+body main section.box1 a {
+  background-color: rgba(88, 128, 94, 0.6666666667);
+  height: 100%;
+  width: 100%;
+  color: aliceblue;
+  text-decoration: none; /* 將底線刪除 */
+  font-size: 1.25rem;
+  transition: all 0.25s ease;
+}
+body main section.box1 a:hover {
+  color: aliceblue;
+  background-color: rgba(88, 128, 94, 0.3058823529);
+}
+body main section.box1 a h3 {
+  padding-top: 25%;
+  margin-left: 3rem;
+}
+body main section.box1 a h5 {
+  margin-left: 3rem;
+}
+body main section.box1 a hr {
+  width: 45%;
+  margin-left: 3rem;
+}
+body main section.box2 {
+  flex: 3 2 500px;
+  min-height: 50vh;
+  width: 40%;
+  background-image: url(/image/影片推薦.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  padding: 0rem;
+}
+body main section.box2 a {
+  background-color: rgba(175, 122, 31, 0.5803921569);
+  height: 100%;
+  width: 100%;
+  color: aliceblue;
+  text-decoration: none; /* 將底線刪除 */
+  font-size: 1.25rem;
+  transition: all 0.25s ease;
+}
+body main section.box2 a:hover {
+  color: aliceblue;
+  background-color: rgba(175, 122, 31, 0.2117647059);
+}
+body main section.box2 a h3 {
+  padding-top: 14%;
+  margin-left: 3rem;
+}
+body main section.box2 a h5 {
+  margin-left: 3rem;
+}
+body main section.box2 a hr {
+  width: 35%;
+  margin-left: 3rem;
+}
+body main section.box3 {
+  flex: 3 1 300px;
+  min-height: 50vh;
+  width: 40%;
+  background-image: url(/image/AI對話.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  padding: 0rem;
+}
+body main section.box3 a {
+  background-color: rgba(49, 69, 67, 0.7254901961);
+  height: 100%;
+  width: 100%;
+  color: aliceblue;
+  text-decoration: none; /* 將底線刪除 */
+  font-size: 1.25rem;
+  transition: all 0.25s ease;
+}
+body main section.box3 a:hover {
+  color: aliceblue;
+  background-color: rgba(49, 69, 67, 0.462745098);
+}
+body main section.box3 a h3 {
+  padding-top: 21%;
+  margin-left: 3rem;
+}
+body main section.box3 a h5 {
+  margin-left: 3rem;
+}
+body main section.box3 a hr {
+  width: 35%;
+  margin-left: 3rem;
+}
+body main section.box4 {
+  flex: 1 1 500px;
+  min-height: 50vh;
+  width: 40%;
+  background-image: url(/image/學習分析.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  padding: 0rem;
+}
+body main section.box4 a {
+  background-color: rgba(226, 228, 221, 0.737254902);
+  height: 100%;
+  width: 100%;
+  color: rgb(85, 90, 95);
+  text-decoration: none; /* 將底線刪除 */
+  font-size: 1.25rem;
+  transition: all 0.25s ease;
+}
+body main section.box4 a:hover {
+  color: rgb(85, 90, 95);
+  background-color: rgba(226, 228, 221, 0.4117647059);
+}
+body main section.box4 a h3 {
+  padding-top: 25%;
+  margin-left: 3rem;
+}
+body main section.box4 a h5 {
+  margin-left: 3rem;
+}
+body main section.box4 a hr {
+  width: 45%;
+  margin-left: 3rem;
+}/*# sourceMappingURL=index.css.map */

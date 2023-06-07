@@ -1,0 +1,89 @@
+$color-dark: #314543;
+$color-base: #58805e;
+$color-light: #e2e4dd;
+$color-gold: #af7a1f;
+
+.bg_one {
+  background-color: $color-light;
+}
+
+.bg_two {
+  background-color: $color-base;
+}
+
+.bg_three {
+  background-color: $color-dark;
+}
+
+.btn {
+  background-color: $color-dark;
+  border: none;
+}
+
+.btn:hover,
+.btn::after,
+.btn:focus,
+.btn:active:hover {
+  background-color: $color-dark;
+  border: none;
+}
+
+.my_font {
+  color: $color-gold;
+  font-weight: 1000;
+}
+
+.c_light {
+  color: $color-light;
+}
+
+.slider {
+  position: relative;
+  .owl-item.active {
+    &.center {
+      .slider-card {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.slider-card {
+  height: 400px;
+  transform: scale(0.8);
+}
+
+.owl-nav {
+  .owl-prev {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 0;
+    opacity: 0.7;
+    font-size: 30px !important;
+    z-index: 1;
+  }
+  .owl-next {
+    position: absolute;
+    top: calc(50% - 25px);
+    right: 0;
+    opacity: 0.7;
+    font-size: 30px !important;
+    z-index: 1;
+  }
+}
+.owl-dots {
+  text-align: center;
+  .owl-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: #ccc !important;
+    margin-left: 3px;
+    margin-right: 3px;
+    outline: none;
+    &.active {
+      background: #314543 !important;
+    }
+  }
+}

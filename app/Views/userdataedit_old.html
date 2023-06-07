@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>會員資料修改</title>
+    <!-- 導入Bootstrap的CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles/Loginstyle.css" />
+  </head>
+  <body>
+    <!-- 導入navbar -->
+    <script src="./nav.js"></script>
+
+    <h1>會員資料</h1>
+    <div id="line"></div>
+    <div class="data">
+      <div class="UID">
+        <div class="UIDWord">UID</div>
+        <div class="UIDBlock">#1234</div>
+      </div>
+      <div class="Email">
+        <div class="EmailWord">帳號/Email</div>
+        <div class="EmailBlock">abc@gmail.com</div>
+        <img
+          class="EditPen"
+          src="./image/iconmonstr-pencil-line-filled.svg"
+          alt=""
+        />
+      </div>
+      <div class="Password">
+        <div class="PasswordWord">密碼</div>
+        <div class="PassWordBlock">*********</div>
+        <img
+          class="EditPen"
+          src="./image/iconmonstr-pencil-line-filled.svg"
+          alt=""
+        />
+      </div>
+      <button id="DataStore"><a href="./userdata.html">儲存資料</a></button>
+    </div>
+    <!-- 導入footer -->
+    <script src="./footer.js"></script>
+
+    <!-- 導入Bootstrap5的JavaScript -->
+  </body>
+</html>

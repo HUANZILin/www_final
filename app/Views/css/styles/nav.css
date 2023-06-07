@@ -1,0 +1,69 @@
+@charset "UTF-8";
+body {
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  top: 0px;
+  background-color: #e2e4dd;
+  font-family: 微軟正黑體;
+  align-items: center;
+  z-index: 5;
+}
+nav .logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #58805e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 30px;
+}
+nav .logo #logo {
+  font-size: 16px;
+  color: #e2e4dd;
+  font-weight: bold;
+}
+nav a {
+  display: flex;
+  width: 100px;
+  margin: 0px 10px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #314543;
+  justify-content: center;
+  transition: 0.5s;
+}
+nav a:hover {
+  color: #af7a1f;
+}
+nav .card_list {
+  display: flex;
+  position: relative;
+  padding: 30px 0px;
+}
+nav .card_list .list {
+  display: none;
+  position: absolute;
+  top: 90px;
+  background-color: #e2e4dd;
+}
+nav .card_list .list a {
+  margin: 0px 10px;
+  padding: 20px 0px;
+}
+nav .card_list .list hr {
+  margin: 0px;
+}
+nav .card_list:hover .list {
+  display: block;
+}
+nav #member {
+  position: absolute;
+  right: 30px;
+}/*# sourceMappingURL=nav.css.map */

@@ -1,0 +1,281 @@
+$color-dark: #314543;
+$color-base: #58805e;
+$color-light: #e2e4dd;
+$color-gold: #af7a1f;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  top: 20vh;
+  background-color: #58805e;
+  h1 {
+    color: #e2e4dd;
+    letter-spacing: 1rem;
+    text-align: center;
+  }
+  div#line {
+    margin: 0 auto;
+    margin-top: 2rem;
+    height: 0.1rem;
+    width: 50vw;
+    background-color: #e2e4dd;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    form {
+      .formTop {
+        display: flex;
+        margin: 3rem 0rem 3rem 0rem;
+      }
+      .formButtom {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 5rem;
+        a {
+          color: #e2e4dd;
+          text-decoration: none;
+        }
+        .register {
+          margin-top: 10px;
+          text-decoration: underline;
+        }
+      }
+      .label {
+        display: flex;
+        flex-direction: column;
+        padding-right: 2rem;
+        align-items: center;
+        label {
+          font-size: 1.5rem;
+          font-weight: 500;
+          margin-bottom: 15px;
+        }
+      }
+      .input {
+        display: flex;
+        flex-direction: column;
+        input {
+          background-color: #e2e4dd;
+          color: #314543;
+          border: none;
+          outline: none;
+          border-radius: 20px;
+          padding: 6px 25px 6px 25px;
+          margin-bottom: 15px;
+        }
+      }
+      button {
+        background-color: $color-dark;
+        color: #e2e4dd;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 40px 10px 40px;
+      }
+    }
+  }
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  label {
+    display: inline-block;
+    color: #e2e4dd;
+    font-size: 1.5rem;
+    text-align: right;
+    font-weight: bold;
+  }
+  input {
+    position: relative;
+    text-align: center;
+    left: 3rem;
+    height: 2.5rem;
+    width: 20vw;
+    margin: 0 auto;
+    background-color: #e2e4dd;
+    color: #314543;
+    border: 0px;
+    border-radius: 2rem;
+  }
+  div#first {
+    text-align: center;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  div#second {
+    text-align: center;
+    width: 100%;
+    padding: 0.25rem;
+  }
+  div#end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    button#submit {
+      a {
+        text-decoration: none;
+        color: #e2e4dd;
+      }
+      width: 6rem;
+      height: 2.5rem;
+      font-size: 1rem;
+      font-weight: bold;
+      background-color: #314543;
+      border: none;
+      border-radius: 1rem;
+    }
+    p#forgetpassword {
+      a {
+        position: relative;
+        top: 0.5rem;
+        padding-left: 1rem;
+        color: #e2e4dd;
+      }
+    }
+  }
+}
+
+//userdata
+div.data {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5rem;
+  div.UID {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    justify-content: center;
+    div.UIDWord {
+      font-size: 1.5rem;
+      color: #e2e4dd;
+      font-weight: bold;
+      padding-right: 1rem;
+    }
+    div.UIDBlock {
+      height: 2.5rem;
+      width: 20vw;
+      text-align: center;
+      line-height: 2.5rem;
+      background-color: #e2e4dd;
+      color: #314543;
+      border: 0px;
+      border-radius: 2rem;
+      margin-right: -80px;
+    }
+  }
+  div.Email {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    justify-content: center;
+    div.EmailWord {
+      font-size: 1.5rem;
+      color: #e2e4dd;
+      font-weight: bold;
+      padding-right: 1rem;
+    }
+    div.EmailBlock {
+      height: 2.5rem;
+      width: 20vw;
+      text-align: center;
+      line-height: 2.5rem;
+      background-color: #e2e4dd;
+      color: #314543;
+      border: 0px;
+      border-radius: 2rem;
+    }
+    img {
+      display: flex;
+      position: relative;
+      left: 1rem;
+      box-sizing: border-box;
+      background-color: #e2e4dd;
+      border: 0;
+      border-radius: 0.5rem;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+  div.Password {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    justify-content: center;
+    div.PasswordWord {
+      font-size: 1.5rem;
+      color: #e2e4dd;
+      font-weight: bold;
+      padding-right: 1rem;
+    }
+    div.PassWordBlock {
+      height: 2.5rem;
+      width: 20vw;
+      text-align: center;
+      line-height: 2.5rem;
+      background-color: #e2e4dd;
+      color: #314543;
+      border: 0px;
+      border-radius: 2rem;
+    }
+    img {
+      display: flex;
+      position: relative;
+      left: 1rem;
+      box-sizing: border-box;
+      background-color: #e2e4dd;
+      border: 0;
+      border-radius: 0.5rem;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+  button#DataEdit {
+    margin: 0 auto;
+    height: 2.5rem;
+    font-size: 1rem;
+    background-color: $color-dark;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 40px;
+    a {
+      color: #e2e4dd;
+      text-decoration: none;
+    }
+  }
+  img.EditPen {
+    cursor: pointer;
+    &:hover {
+      background-color: #314543;
+    }
+  }
+}
+
+//StoreUserData
+div.data {
+  button#DataStore {
+    margin: 0 auto;
+    height: 2.5rem;
+    font-size: 1rem;
+    background-color: $color-dark;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 40px;
+    a {
+      color: #e2e4dd;
+      text-decoration: none;
+    }
+  }
+}
