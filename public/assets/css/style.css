@@ -1,0 +1,79 @@
+.bg_one {
+  background-color: #e2e4dd;
+}
+
+.bg_two {
+  background-color: #58805e;
+}
+
+.bg_three {
+  background-color: #314543;
+}
+
+.btn {
+  background-color: #314543;
+  border: none;
+}
+
+.btn:hover,
+.btn::after,
+.btn:focus,
+.btn:active:hover {
+  background-color: #314543;
+  border: none;
+}
+
+.my_font {
+  color: #af7a1f;
+  font-weight: 1000;
+}
+
+.c_light {
+  color: #e2e4dd;
+}
+
+.slider {
+  position: relative;
+}
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.slider-card {
+  height: 400px;
+  transform: scale(0.8);
+}
+
+.owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 0;
+  opacity: 0.7;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0;
+  opacity: 0.7;
+  font-size: 30px !important;
+  z-index: 1;
+}
+
+.owl-dots {
+  text-align: center;
+}
+.owl-dots .owl-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: #ccc !important;
+  margin-left: 3px;
+  margin-right: 3px;
+  outline: none;
+}
+.owl-dots .owl-dot.active {
+  background: #314543 !important;
+}/*# sourceMappingURL=style.css.map */

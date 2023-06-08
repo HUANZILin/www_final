@@ -1,0 +1,68 @@
+$color-dark: #314543;
+$color-base: #58805e;
+$color-light: #e2e4dd;
+$color-gold: #af7a1f;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-base;
+  color: $color-light;
+  padding-top: 150px;
+  h1 {
+    text-align: center;
+    letter-spacing: 1rem;
+  }
+  hr {
+    margin: 20px auto 0px auto;
+  }
+  form {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    label {
+      font-size: 1.5rem;
+      padding: 20px;
+    }
+    input {
+      height: 2.5rem;
+      width: 20vw;
+      text-align: center;
+      line-height: 2.5rem;
+      background-color: #e2e4dd;
+      border: 0px;
+      border-radius: 2rem;
+      float: right; //新樣式！
+      margin-top: 20px;
+      outline: none;
+      &::placeholder {
+        color: $color-dark;
+        opacity: 1;
+      }
+    }
+    button {
+      margin: 10px auto 80px auto;
+      height: 2.5rem;
+      font-size: 1rem;
+      background-color: $color-dark;
+      border: none;
+      border-radius: 30px;
+      padding: 10px 40px;
+      a {
+        color: #e2e4dd;
+        text-decoration: none;
+        &:hover {
+          color: $color-light;
+        }
+      }
+    }
+  }
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}

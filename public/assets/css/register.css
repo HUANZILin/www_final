@@ -1,0 +1,59 @@
+body {
+  background-color: #58805e;
+  color: #e2e4dd;
+  padding-top: 150px;
+}
+body h1 {
+  text-align: center;
+  letter-spacing: 1rem;
+}
+body div#line {
+  margin: 0 auto;
+  margin-top: 2rem;
+  height: 0.1rem;
+  width: 50vw;
+  background-color: #e2e4dd;
+  align-items: center;
+}
+body .container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+body .container form .formTop {
+  display: flex;
+  margin: 3rem 0rem 3rem 0rem;
+}
+body .container form .formButtom {
+  margin-bottom: 5rem;
+}
+body .container form .label {
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+}
+body .container form .label label {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+body .container form .input {
+  display: flex;
+  flex-direction: column;
+}
+body .container form .input input {
+  background-color: #e2e4dd;
+  color: #314543;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 6px 25px 6px 25px;
+  margin-bottom: 15px;
+}
+body .container form button {
+  background-color: #314543;
+  color: #e2e4dd;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 40px 10px 40px;
+}/*# sourceMappingURL=register.css.map */
