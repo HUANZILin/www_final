@@ -6,6 +6,6 @@ class Member extends BaseController
 {
     public function index()
     {
-        return view('pages/home_page');
+        return view('pages/home_visitor');
     }
 }
