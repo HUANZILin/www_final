@@ -32,6 +32,20 @@ $routes->set404Override();
 // $routes->get('/', 'Home::index');
 
 $routes->get('/', 'Member::index');
+$routes->get('/login', 'Member::login');
+$routes->get('/register', 'Member::register');
+$routes->get('/logout', 'Member::logout');
+
+$routes->post('/login', 'Member::doLogin');
+$routes->post('/register', 'Member::doRegister');
+
+$routes->group('/', ['filter' => 'AuthFilter'], function ($routes) {
+    $routes->get('/homepage', 'Member::homepage');
+
+    $routes->get('/books', 'Books::index');
+    $routes->get('/books/new', 'Books::create');
+    $routes->post('/books', 'Books::store');
+});
 
 /*
  * --------------------------------------------------------------------

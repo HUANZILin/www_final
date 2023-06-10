@@ -22,8 +22,8 @@
       <a href="./index.html" id="logo">LOGO</a>
     </div>
 
-    <a href="./userdata.html" id="member" style="right: 140px">登入</a>
-    <a href="./login.html" id="member">註冊</a>
+    <a href="<?= base_url('/login')?>" id="member" style="right: 140px">登入</a>
+    <a href="<?= base_url('/register')?>" id="member">註冊</a>
 </nav>
 <main>
       <img src="<?= base_url('../../public/assets/images/首頁大圖.jpg') ?>" alt="首頁圖" />

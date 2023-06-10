@@ -17,5 +17,5 @@
     <a href="./analysis.html">學習分析</a>
 
     <a href="./userdata.html" id="member" style="right: 140px">會員資料</a>
-    <a href="./login.html" id="member">登出</a>
+    <a href="<?= base_url('/logout')?>" id="member">登出</a>
   </nav>
