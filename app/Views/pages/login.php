@@ -49,7 +49,7 @@
 
         <div class="formButtom">
           <button id="submit" type="submit">
-            <a href="./index.html">登入</a>
+            <a>登入</a>
           </button>
           <a class="register" href="./register.html">註冊</a>
         </div>

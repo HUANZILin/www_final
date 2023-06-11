@@ -26,10 +26,10 @@ class Database extends Config
      */
     public array $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => '',
-        'password' => '',
-        'database' => '',
+        'hostname' => '140.127.74.144',
+        'username' => '410977030',
+        'password' => '410977030',
+        'database' => '410977037',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
@@ -69,6 +69,7 @@ class Database extends Config
         'foreignKeys' => true,
         'busyTimeout' => 1000,
     ];
+
 
     public function __construct()
     {
