@@ -42,9 +42,14 @@ $routes->post('/register', 'Member::doRegister');
 $routes->group('/', ['filter' => 'AuthFilter'], function ($routes) {
     $routes->get('/homepage', 'Member::homepage');
 
-    $routes->get('/books', 'Books::index');
-    $routes->get('/books/new', 'Books::create');
-    $routes->post('/books', 'Books::store');
+    $routes->get('/wordplay', 'Word::index');
+    $routes->get('/wordsearch', 'Word::wordsearch');
+    $routes->get('/wordcollect', 'Word::wordcollect');
+    $routes->get('/wordpractice', 'Word::wordpractice');
+
+    $routes->post('/dictionary', 'Dictionary::index');
+    
+    $routes->post('/wordsearch', 'Word::store');
 });
 
 /*

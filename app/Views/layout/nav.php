@@ -3,13 +3,13 @@
       <a href="./index.html" id="logo">LOGO</a>
     </div>
     <div class="card_list">
-      <a href="./cardplay.html" id="card">單字卡</a>
+      <a href="<?= base_url('/wordplay')?>" id="card">單字卡</a>
       <div class="list">
-        <a href="./cardlist.html">單字列表</a>
+        <a href="<?= base_url('/wordsearch')?>">單字列表</a>
         <hr style="color: #58805e" />
-        <a href="./cardlist.html">收藏單字</a>
+        <a href="<?= base_url('/wordcollect')?>">收藏單字</a>
         <hr style="color: #58805e" />
-        <a href="./test.html">單字練習</a>
+        <a href="<?= base_url('/wordpractice')?>">單字練習</a>
       </div>
     </div>
     <a href="#">影片推薦</a>
