@@ -1,7 +1,7 @@
 <?= $this->extend("layout/template")?>
 <?= $this->section('content')?>
 <main>
-      <img src="<?= base_url('../../public/assets/images/首頁大圖.jpg') ?>" alt="首頁圖" />
+      <img src="<?= base_url('assets/images/首頁大圖.jpg') ?>" alt="首頁圖" />
     </main>
 
     <main>

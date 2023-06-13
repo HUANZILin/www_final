@@ -28,7 +28,7 @@
     <h1>會員登入</h1>
     <div id="line"></div>
     <div class="container">
-      <form action="" id="loginForm">
+      <form action="/Member/dologin" id="loginForm">
         <div class="formTop">
           <div class="label">
             <label for="email">帳號/Email</label>
@@ -49,9 +49,9 @@
 
         <div class="formButtom">
           <button id="submit" type="submit">
-            <a href="./index.html">登入</a>
+          <a href="">登入</a>
           </button>
-          <a class="register" href="./register.html">註冊</a>
+          <a class="register" href="<?= base_url('/register')?>">註冊</a>
         </div>
       </form>
     </div>
@@ -134,6 +134,8 @@
           })
       },
     }
+    
+    
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </body>
