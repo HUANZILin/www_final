@@ -41,6 +41,16 @@ class Member extends BaseController
         return view('pages/home_page');
     }
 
+    public function userdata()
+    {
+        return view('pages/userdata');
+    }
+
+    public function userdataedit()
+    {
+        return view('pages/userdataedit');
+    }
+
     public function dologin()
     {
         $data = $this->request->getPost();
