@@ -29,7 +29,7 @@
     <h1>註冊會員</h1>
     <div id="line"></div>
     <div class="container">
-      <form action="" id="registerForm">
+      <form action="Member/doRegister" id="registerForm">
         <div class="formTop">
           <div class="label">
             <label for="email" id="email">帳號/Email</label>
